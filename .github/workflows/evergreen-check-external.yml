@@ -13,7 +13,7 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v5
-      - uses: Fatihmaull/evergreen@2a4ab0a5a916ee156149c1f7e5a2ca8802c2fdc6
+      - uses: Fatihmaull/evergreen@v1
         with:
           contracts: CANZNTAW7DYMCZ6EAY5BP672H4AL2O2HVRBP4O4HRUEZRATHQRRLXL6L
           keys-file: a-data-keys.json
@@ -26,7 +26,7 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v5
-      - uses: Fatihmaull/evergreen@2a4ab0a5a916ee156149c1f7e5a2ca8802c2fdc6
+      - uses: Fatihmaull/evergreen@v1
         with:
           contracts: CANZNTAW7DYMCZ6EAY5BP672H4AL2O2HVRBP4O4HRUEZRATHQRRLXL6L
           keys-file: a-data-keys.json
