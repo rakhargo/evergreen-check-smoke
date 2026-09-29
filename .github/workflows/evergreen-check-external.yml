@@ -18,7 +18,7 @@ jobs:
           contracts: CANZNTAW7DYMCZ6EAY5BP672H4AL2O2HVRBP4O4HRUEZRATHQRRLXL6L
           keys-file: a-data-keys.json
           threshold: '17280'
-          version: '0.1.0'
+          version: '0.1.1'
 
   red:
     name: red · must fail at threshold
@@ -31,4 +31,4 @@ jobs:
           contracts: CANZNTAW7DYMCZ6EAY5BP672H4AL2O2HVRBP4O4HRUEZRATHQRRLXL6L
           keys-file: a-data-keys.json
           threshold: '2000000'
-          version: '0.1.0'
+          version: '0.1.1'
